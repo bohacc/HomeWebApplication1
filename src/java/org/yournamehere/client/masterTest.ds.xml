@@ -1,0 +1,13 @@
+<DataSource  
+    ID="masterTest"  
+    serverType="hibernate"  
+    tableName="test"  
+    beanClassName="org.yournamehere.client.Test"
+    schemaBean="org.yournamehere.client.Test"
+>  
+    <fields>  
+        <field name="id" type="sequence" primaryKey="true" canEdit="false" />  
+        <field name="nazev" type="text" />
+    </fields>  
+      
+</DataSource>  
